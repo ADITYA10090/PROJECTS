@@ -1,0 +1,92 @@
+
+
+  .main_body{
+    width: auto;
+    height:auto;
+    background-image: url("netfl.jpg");
+    background-color: rgba(0, 0, 0, 0.596);
+
+    position: sticky;
+    background-repeat: no-repeat;
+    
+  }
+
+  .container {
+    background-color: rgba(0, 0, 0, 0.772);
+    width: 320px;
+    height: 470px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    left: 65vh;
+    padding: 50px;
+    overflow: visible;
+    border-radius: 10px;
+  }
+
+  img {
+    height: 60px;
+    width: 180px;
+  }
+
+
+
+
+  .heading {
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  input[type="text"],
+  input[type="password"] {
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    height: 18px;
+    background-color: rgb(48, 44, 44);
+    border: none;
+    border-radius: 5px;
+  }
+
+  input[type="text"]::selection{
+    border:none;
+  }
+
+  input[type="button"] {
+    width: 293px;
+    padding: 15px;
+    margin: 14px;
+    background-color: rgb(223, 5, 5);
+    color: white;
+    border-radius: 5px;
+    font-weight: 550;
+  }
+
+  input[type="button"]:hover {
+    cursor: pointer;
+  }
+  .check {
+    color: rgb(132, 129, 129);
+    float: left;
+  }
+  input[type="checkbox"] {
+    background-color: rgb(132, 129, 129);
+    width: 35px;
+  }
+  span {
+    color: rgb(132, 129, 129);
+    text-decoration: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .bck {
+    background-color: rgba(0, 0, 0, 0.603);
+    height: 900px;
+    width: auto;
+  }
